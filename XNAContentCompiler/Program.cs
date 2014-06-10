@@ -26,7 +26,7 @@ namespace XNAContentCompiler
                                 "Builds the assets in the input directory and copies the artifacts to the output directory.");
 
             _conExec.AddCommand("build-file", ExecAssetBuild, strings => strings.Count() >= 2,
-                                "Builds the assets in the input directory and copies the artifacts to the output directory.");
+                                "Builds the asset in the input file and copies the output to the output file");
 
             new[] {"h", "help"}.ToList()
                                .ForEach(commandString => _conExec.AddCommand(commandString, 
