@@ -1,4 +1,4 @@
-XNA Content Compiler
+# XNA Content Compiler
 
 This is very similar to this:
 
@@ -8,7 +8,7 @@ except the code is refactored to be a little cleaner (IMO) and I've added
 in command line functionality so you can use it via build scripts like rake 
 or whatever you enjoy using.
 
-USAGE:
+## USAGE:
   * build (Input Directory) (Output Directory)
     Builds all files in the input directory and places them into the output directory
 
@@ -20,6 +20,14 @@ USAGE:
 
   * help
     Prints each command and a description
+
+
+## Currently supported types:
+
+* Image Files: *.bmp, *.jpg, *.png, *.tga, *.dds
+* Audio Files: *.wav, *.mp3, *.wma
+* SpriteFont Files: *.spritefont
+There are more types that are supported by the XNA Content Pipeline, but they do not have all the UI features yet. If you need a new type, just create an issue or pull request.
 
 There are a few caveats here, namely the watch command isn't implemented yet
 and anything ending with .xml, .ini or .config gets 1 to 1 copied from the 
