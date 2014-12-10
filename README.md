@@ -1,5 +1,7 @@
 # XNA Content Compiler
 
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/adamveld12/XnaContentCompiler?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This is very similar to this:
 
 https://github.com/xupefei/XNA-4.0-Content-Compiler
